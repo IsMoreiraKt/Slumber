@@ -1,0 +1,26 @@
+/**
+ * @file slumber.hpp.in
+ * @brief Template for the generated Slumber header file.
+ *
+ * This file is used as a template by CMake to generate `slumber.hpp`,
+ * where placeholders are replaced with actual values defined in CMakeLists.txt.
+ */
+#ifndef SLUMBER_HPP
+#define SLUMBER_HPP
+
+/// @brief Major version of Slumber.
+#define SLUMBER_VERSION_MAJOR @SLUMBER_VERSION_MAJOR@
+
+/// @brief Minor version of Slumber.
+#define SLUMBER_VERSION_MINOR @SLUMBER_VERSION_MINOR@
+
+/// @brief Patch version of Slumber.
+#define SLUMBER_VERSION_PATCH @SLUMBER_VERSION_PATCH@
+
+/// @brief Full version string of Slumber (e.g., "1.0.0").
+#define SLUMBER_VERSION_STRING "@SLUMBER_VERSION_STRING@"
+
+/// @brief Project name.
+#define SLUMBER_PROJECT_NAME "@SLUMBER_PROJECT_NAME@"
+
+#endif // SLUMBER_HPP
